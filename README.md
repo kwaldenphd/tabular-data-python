@@ -23,6 +23,7 @@ Information and exercises in this lab are adapted from Al Sweigart's [*Automate 
 - [Writing to a `.csv` file](#writing-to-a-csv-file)
   * [Writing from a dictionary to a `.csv` file](#writing-from-a-dictionary-to-a-csv-file)
 - [Working with `.xlsx` files](#working-with-xlsx-files)
+- [Project Prompts](#project-prompts)
 - [Lab notebook questions](#lab-notebook-questions)
 
 # Data
@@ -422,6 +423,19 @@ sheet = wb['Sheet3']
 To learn more about working with Excel workbooks in Python:
 - Al Sweigart, "Chapter 13, Working With Excel Spreadsheets," in *Automate the Boring Stuff With Python* (No Starch Press, 2020): 302-328.
 - [`openpyxl` documentation](https://openpyxl.readthedocs.io/en/stable/)
+
+# Project Prompts
+
+Create an automated program that removes first row of files for everything in `removeCsvheader.zip` folder. Describe scenario in which you would want or need to do this. What are the steps for this process. How do you build it in Python. What might be next?
+
+Navigate to an open data portal and download a `.csv` or `.xlsx` file. OpenData.gov, city of Chicago, SB, SportsReference, other. 
+Open the data in a spreadsheet program and/or text editor
+What are you seeing, how can we start to make sense of it
+What documentation is available, etc.
+
+Load the data in Python as list/sublists and as dictionary. What challenges do you encounter and how do you address/solve them. When would you want one format vs the other.
+
+Manually create a small dataset and write to a CSV file.
 
 # Lab Notebook Questions
 
