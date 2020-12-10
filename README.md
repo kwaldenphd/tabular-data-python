@@ -14,9 +14,16 @@ Information and exercises in this lab are adapted from Al Sweigart's *Automate t
 # Table of Contents
 
 # Data
-.txt file
-.csv file
-.xlsx file
+
+You'll need four data files for this lab.
+- `example.csv`
+- `example.txt`
+- `example.xlsx`
+- `exampleWithHeader.csv`
+
+They can all be downloaded from this GitHub repository as individual files or a zip folder.
+
+You can also access them via Google Drive (ND users only)
 
 # `.csv` data in Python
 
@@ -147,7 +154,7 @@ The `delimiter` attribute in the `Dialect` class lets us specify what delimiter 
 import csv
 
 # load tab-separated value file
-tsv_file = open('example.tsv')
+tsv_file = open('example.txt')
 
 # create a reader object and specify the new delimiter
 read_tsv = csv.reader(tsv_file, delimiter="\t")
@@ -157,7 +164,7 @@ for row in read_tsv:
   print(row)
 ```
 
-<blockquote>Q7: Modify code to load in example.tsv file</blockquote>
+<blockquote>Q7: Modify code to load in example.txt file</blockquote>
 
 ## Characters in a field
 
