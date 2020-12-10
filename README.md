@@ -12,6 +12,18 @@ Information and exercises in this lab are adapted from Al Sweigart's *Automate t
 - Chapter 16 "Working With CSV Files and JSON Data" (371-388)
 
 # Table of Contents
+- [Data](#data)
+- [`.csv` data in Python](#csv-data-in-python)
+  * [What is a `.csv` file?](#what-is-a-csv-file)
+  * [Reading a `.csv` file into Python](#reading-a-csv-file-into-Python)
+    * [Reading `.csv.` data using a `for` loop](#reading-csv-data-using-a-for-loop)
+  * [Other delimiters](#other-delimiters)
+  * [Escape characters](#escape-characters)
+- [Reading in `.csv` files using dictionaries](#reading-in-csv-files-using-dictionaries)
+- [Writing to a `.csv` file](#writing-to-a-csv-file)
+  * [Writing from a dictionary to a `.csv` file](#writing-from-a-dictionary-to-a-csv-file)
+- [Working with `.xlsx` files](#working-with-xlsx-files)
+- [Lab notebook questions](#lab-notebook-questions)
 
 # Data
 
@@ -23,7 +35,7 @@ You'll need four data files for this lab.
 
 They can all be downloaded from this GitHub repository as individual files or a zip folder.
 
-You can also access them via Google Drive (ND users only)
+You can also access them [via Google Drive](https://drive.google.com/drive/folders/1Sp_N34753ONJRU2AFKcocQ2DhCEhyL-m?usp=sharing) (ND users only).
 
 # `.csv` data in Python
 
@@ -166,7 +178,7 @@ for row in read_tsv:
 
 <blockquote>Q7: Modify code to load in example.txt file</blockquote>
 
-## Characters in a field
+## Escape characters
 
 But what happens if the values in your dataset include the same character that's being used as a delimiter?
 
