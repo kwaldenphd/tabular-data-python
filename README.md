@@ -7,7 +7,7 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 
 ## Acknowledgements
 
-Information and exercises in this lab are adapted from Al Sweigart's *Automate the Boring Stuff With Python* (No Starch Press, 2020).
+Information and exercises in this lab are adapted from Al Sweigart's [*Automate the Boring Stuff With Python*](https://nostarch.com/automatestuff2) (No Starch Press, 2020).
 - Chapter 13, "Working With Excel Spreadsheets" (302-328)
 - Chapter 16 "Working With CSV Files and JSON Data" (371-388)
 
