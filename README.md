@@ -49,6 +49,8 @@ They can all be downloaded from this GitHub repository as individual files or a 
 
 You can also access them [via Google Drive](https://drive.google.com/drive/folders/1Sp_N34753ONJRU2AFKcocQ2DhCEhyL-m?usp=sharing) (ND users only).
 
+[Click here](https://raw.githubusercontent.com/kwaldenphd/tabular-data-python/main/tabular_data_python.ipynb) and select the "Save As" option to run this lab in Jupyter Notebooks.
+
 # `.csv` data in Python
 
 ## What is a `.csv` file? 
