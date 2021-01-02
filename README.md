@@ -35,6 +35,9 @@ Information and exercises in this lab are adapted from Al Sweigart's [*Automate 
   * [Writing from a dictionary to a `.csv` file](#writing-from-a-dictionary-to-a-csv-file)
 - [Working with `.xlsx` files](#working-with-xlsx-files)
 - [Project Prompts](#project-prompts)
+  * [Project #1](#project-1)
+  * [Project #2](#project-2)
+  * [Project #3](#project-3)
 - [Lab notebook questions](#lab-notebook-questions)
 
 # Data
@@ -434,23 +437,36 @@ sheet = wb['Sheet3']
 - Al Sweigart, "Chapter 13, Working With Excel Spreadsheets," in *Automate the Boring Stuff With Python* (No Starch Press, 2020): 302-328.
 - [`openpyxl` documentation](https://openpyxl.readthedocs.io/en/stable/)
 
+<blockquote>Q13: How would you compare these two formats? When would you want one format vs the other?</blockquote>
+
 # Project Prompts
 
 ## Project #1:
 
-Create an automated program that removes first row of files for everything in `removeCsvheader.zip` folder. Describe scenario in which you would want or need to do this. What are the steps for this process. How do you build it in Python. What might be next?
+Create an automated program that removes first row of files for everything in `removeCsvheader.zip` folder. 
+
+Include code + comments.
+
+Describe a scenario in which you would want or need to do this.
 
 ## Project #2:
 
-1. Navigate to an open data portal and download a `.csv` or `.xlsx` file. OpenData.gov, city of Chicago, SB, SportsReference, other. 
+Navigate to an open data portal and download a `.csv` or `.xlsx` file. OpenData.gov, city of Chicago, SB, SportsReference, other. 
 
-2. Open the data in a spreadsheet program and/or text editor
-- What are you seeing, how can we start to make sense of it
-- What documentation is available, etc.
+A few places to start:
+- [Data.gov](https://www.data.gov/)
+- [City of Chicago Data Portal](https://data.cityofchicago.org/)
+- [City of South Bend Open Data](https://data-southbend.opendata.arcgis.com/)
 
-3. Load the data in Python as list/sublists and as dictionary. What challenges do you encounter and how do you address/solve them. When would you want one format vs the other.
+Open the data in a spreadsheet program and/or text editor
+- What do you see?
+- How can we start to make sense of the data based on available documentation?
 
-4. Manually create a small dataset and write to a CSV file.
+Load the data in Python as list/sublists and as dictionary. What challenges did you encounter? How did you address or solve them? 
+
+### Project #3
+
+Manually create a small dataset and write to a CSV file.
 
 # Lab Notebook Questions
 
