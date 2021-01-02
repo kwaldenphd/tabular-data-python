@@ -5,6 +5,17 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 
 ## Lab Goals
 
+This lab covers various methods for reading structured data into Python using the `csv` and `openpyxl`. It also covers other types of delimiters and escape characters. The lab also overs writing data from Python to a structured data file.
+
+By the end of this lab, students will be able to:
+- Describe the structure and components of a `.csv` file
+- Read a `.csv` file into Python using the `csv` module and a `for` loop
+- Understand how to approach other types of delimited files
+- Understand how to work with escape characters when loading structured data
+- Understand how Python dictionaries work as a type of structured data
+- Write data from Python to a `.csv` file
+- Understand the basic of working with `.xlsx` files in Python
+
 ## Acknowledgements
 
 Information and exercises in this lab are adapted from Al Sweigart's [*Automate the Boring Stuff With Python*](https://nostarch.com/automatestuff2) (No Starch Press, 2020).
@@ -16,7 +27,7 @@ Information and exercises in this lab are adapted from Al Sweigart's [*Automate 
 - [`.csv` data in Python](#csv-data-in-python)
   * [What is a `.csv` file?](#what-is-a-csv-file)
   * [Reading a `.csv` file into Python](#reading-a-csv-file-into-Python)
-    * [Reading `.csv.` data using a `for` loop](#reading-csv-data-using-a-for-loop)
+    * [Reading `.csv` data using a `for` loop](#reading-csv-data-using-a-for-loop)
   * [Other delimiters](#other-delimiters)
   * [Escape characters](#escape-characters)
 - [Reading in `.csv` files using dictionaries](#reading-in-csv-files-using-dictionaries)
