@@ -1,4 +1,4 @@
-# Lab #2: Working with CSV and XLSX files in Python 
+# Working with CSV and XLSX files in Python 
 
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
@@ -402,7 +402,7 @@ outputFile.close()
 pip install openpyxl
 ```
 
-We can load the `example.xlsx` workbook into Python using `openpyxl`.
+70. We can load the `example.xlsx` workbook into Python using `openpyxl`.
 ```Python
 # import openpyxl
 import openpyxl
@@ -411,9 +411,9 @@ import openpyxl
 wb = openpyxl.load_workbook('example.xlsx')
 ```
 
-70. Note that if `example.xlsx` is not in the current working directory, otherwise you will want to provide the full file path.
+71. Note that if `example.xlsx` is not in the current working directory, otherwise you will want to provide the full file path.
 
-71. We can use the `sheetnames` attribute to see what sheets are in the workbook.
+72. We can use the `sheetnames` attribute to see what sheets are in the workbook.
 ```Python
 # import openpyxl
 import openpyxl
@@ -428,7 +428,7 @@ wb.sheetnames
 sheet = wb['Sheet3']
 ```
 
-72. To learn more about working with Excel workbooks in Python:
+73. To learn more about working with Excel workbooks in Python:
 - Al Sweigart, "Chapter 13, Working With Excel Spreadsheets," in *Automate the Boring Stuff With Python* (No Starch Press, 2020): 302-328.
 - [`openpyxl` documentation](https://openpyxl.readthedocs.io/en/stable/)
 
