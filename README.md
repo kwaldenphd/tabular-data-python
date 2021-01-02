@@ -5,7 +5,7 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 
 ## Lab Goals
 
-This lab covers various methods for reading structured data into Python using the `csv` and `openpyxl`. It also covers other types of delimiters and escape characters. The lab also overs writing data from Python to a structured data file.
+This lab covers various methods for reading structured data into Python using `csv` and `openpyxl`. It also covers other types of delimiters and escape characters. The lab also overs writing data from Python to a structured data file.
 
 By the end of this lab, students will be able to:
 - Describe the structure and components of a `.csv` file
