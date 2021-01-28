@@ -198,6 +198,7 @@ for row in read_tsv:
 32. But what happens if the values in your dataset include the same character that's being used as a delimiter?
 
 33. For example, let's say you have address data in the following structure:
+
 Name | Age | Address
 --- | --- | ---
 Jerry | 10 | 2776 McDowell Street, Nashville, Tennessee
@@ -215,6 +216,7 @@ Mike | 30 | 1818 Sherman Street, Hope, Kansas
 38. So what does that mean? We put double quotation marks around the field that includes the delimiter character.
 
 39. Modified data structure:
+
 Name | Age | Address
 --- | --- | ---
 Jerry | 10 | "2776 McDowell Street, Nashville, Tennessee"
@@ -226,6 +228,7 @@ Mike | 30 | "1818 Sherman Street, Hope, Kansas"
 41. But what happens if we have quotation marks within a field that needs to be treated as a distinct entity?
 
 42. For example, the following data structure would run into problems when read into Python.
+
 Id | User | Comment
 --- | --- | ---
 1 | Bob | "John said "Hello World""
@@ -240,6 +243,7 @@ Id | User | Comment
 45. We can use a blackslash `\` character to escape the embedded double quotes.
 
 46. Modified data structure:
+
 Id | User | Comment
 --- | --- | ---
 1 | Bob | "John said \"Hello World\""
