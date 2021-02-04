@@ -101,7 +101,8 @@ You can also access them [via Google Drive](https://drive.google.com/drive/folde
 import csv
 
 # open csv file
-exampleFile = open('example.csv')
+exampleFile = open('data/example.csv')
+# NOTE: If you are on Windows, you may have to change 'data/example.csv' to 'data\example.csv'
 
 # create reader object from lines of data in example.csv file using csv.reader function
 exampleReader = csv.reader(exampleFile)
@@ -129,7 +130,7 @@ exampleData
 
 17. The method we just used to read data from a `.csv` file into Python loads the entire file into memory at once.
 
-18. If we use this method on a large `.csv` file, Python is going to try to load the entire file into memory at once. Which does not bode well for Python or your computer's performance.
+18. If we use this method on a large `.csv` file, Python is going to try to load the entire file into memory at once. This does not bode well for Python or your computer's performance.
 
 19. We can use a `reader` object as part of a `for` loop to iterate through the lines in a `.csv` file and load the file line-by-line.
 
@@ -141,7 +142,8 @@ exampleData
 import csv
 
 # open .csv file
-exampleFile = open('example.csv')
+exampleFile = open('data/example.csv')
+# NOTE: If you are on Windows, you may have to change 'data/example.csv' to 'data\example.csv'
 
 # create reader object from .csv file
 exampleReader = csv.reader(exampleFile)
@@ -181,7 +183,8 @@ for row in exampleReader:
 import csv
 
 # load tab-separated value file
-tsv_file = open('example.txt')
+tsv_file = open('data/example.txt')
+# NOTE: If you are on Windows, you may have to change 'data/example.txt' to 'data\example.txt'
 
 # create a reader object and specify the new delimiter
 read_tsv = csv.reader(tsv_file, delimiter="\t")
@@ -252,6 +255,8 @@ Id | User | Comment
 4 | Louis | "He said, \"stop pulling the dog's tail\""
 
 47. Since the default for `quotechar` is `"`, we need to modify that default to reflect the new data structure.
+
+Create a file called `data.csv` to match the table above before running the code below.
 ```Python
 # import csv module
 import csv
@@ -282,7 +287,8 @@ with open('data.csv', 'rt') as f:
 import csv
 
 # open csv file
-exampleFile = open('exampleWithHeader.csv')
+exampleFile = open('data/exampleWithHeader.csv')
+# NOTE: If you are on Windows, you may have to change '/' to '\'
 
 # reading exampleFile to a dictionary
 exampleDictReader = csv.DictReader(exampleFile)
@@ -306,14 +312,15 @@ for row in exampleDictReader:
 import csv
 
 # open csv file
-exampleFile = open('example.csv')
+exampleFile = open('data/example.csv')
+# NOTE: modify the forward slash to a backslash if you are on Windows.
 
 # reading exampleFile to a dictionary with added field names
 exampleDictReader = csv.DictReader(exampleFile, ['time', 'name', 'amount'])
 
 # set keys for key-value pairs
 for row in exampleDictReader:
-  print(row['Timestamp'], row['Fruit'], row['Quantity'])
+  print(row['time'], row['name'], row['amount'])
 ```
 
 <blockquote>Q10: Load a small CSV that does include headers and manually set the headers. Include code + comments.</blockquote>
@@ -340,7 +347,7 @@ outputWriter.writerow(['spam', 'eggs', 'bacon', 'ham'])
 outputWriter.writerow(['Hello, world!', 'eggs', 'bacon', 'ham'])
 
 # write a third row
-outputWriter.writerow(['1, 2, 3.141592, 4])
+outputWriter.writerow([1, 2, 3.141592, 4])
 
 # close the output file
 outputFile.close()
@@ -361,7 +368,7 @@ import csv
 outputFile = open('output.csv', 'w', newline='')
 
 # create writer object
-outputDictWriter = csv.Dictwriter(outputFile, ['Name', 'Pet', 'Phone'])
+outputDictWriter = csv.DictWriter(outputFile, fieldnames=['Name', 'Pet', 'Phone'])
 
 # create header row
 outputDictWriter.writeheader()
@@ -417,7 +424,8 @@ pip install openpyxl
 import openpyxl
 
 # load workbook
-wb = openpyxl.load_workbook('example.xlsx')
+wb = openpyxl.load_workbook('data/example.xlsx')
+#NOTE: modify the forward slash to a backslash if you are on Windows.
 ```
 
 71. Note that if `example.xlsx` is not in the current working directory, otherwise you will want to provide the full file path.
@@ -428,7 +436,8 @@ wb = openpyxl.load_workbook('example.xlsx')
 import openpyxl
 
 # load workbook
-wb = openpyxl.load_workbook('example.xlsx')
+wb = openpyxl.load_workbook('data/example.xlsx')
+#NOTE: modify the forward slash to a backslash if you are on Windows.
 
 # get workbook sheet names
 wb.sheetnames
