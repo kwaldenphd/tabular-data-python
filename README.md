@@ -415,7 +415,8 @@ outputFile.close()
 
 69. First thing we need to do is install the `openpyxl` module.
 ```Python
-pip install openpyxl
+import sys
+!{sys.executable} -m pip install openpyxl
 ```
 
 70. We can load the `example.xlsx` workbook into Python using `openpyxl`.
