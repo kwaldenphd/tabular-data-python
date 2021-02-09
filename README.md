@@ -258,7 +258,7 @@ Id | User | Comment
 
 47. Since the default for `quotechar` is `"`, we need to modify that default to reflect the new data structure.
 
-Create a file called `data.csv` to match the table above before running the code below.
+For the code below to run, you will need to create a file called `data.csv` to match the table above.
 ```Python
 # import csv module
 import csv
@@ -467,12 +467,13 @@ Describe a scenario in which you would want or need to do this.
 
 ## Project #2:
 
-Navigate to an open data portal and download a `.csv` or `.xlsx` file. OpenData.gov, city of Chicago, SB, SportsReference, other. 
+Navigate to an open data portal and download a `.csv` or `.xlsx` file. 
 
 A few places to start:
 - [Data.gov](https://www.data.gov/)
 - [City of Chicago Data Portal](https://data.cityofchicago.org/)
 - [City of South Bend Open Data](https://data-southbend.opendata.arcgis.com/)
+- [Sports Reference](https://www.sports-reference.com/)
 
 Open the data in a spreadsheet program and/or text editor
 - What do you see?
