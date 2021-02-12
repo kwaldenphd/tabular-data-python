@@ -325,7 +325,7 @@ for row in exampleDictReader:
   print(row['time'], row['name'], row['amount'])
 ```
 
-<blockquote>Q10: Load a small CSV that does include headers and manually set the headers. Include code + comments.</blockquote>
+<blockquote>Q10: Load a small CSV that does not include headers and manually set the headers. Include code + comments.</blockquote>
 
 # Writing to a `.csv` file
 
