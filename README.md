@@ -453,7 +453,7 @@ sheet = wb['Sheet3']
 - Al Sweigart, "Chapter 13, Working With Excel Spreadsheets," in *Automate the Boring Stuff With Python* (No Starch Press, 2020): 302-328.
 - [`openpyxl` documentation](https://openpyxl.readthedocs.io/en/stable/)
 
-<blockquote>Q13: How would you compare these two formats? When would you want one format vs the other?</blockquote>
+<blockquote>Q13: How would you compare these the CSV and XLSX file formats? When would you want one format versus the other?</blockquote>
 
 # Project Prompts
 
@@ -510,3 +510,5 @@ Q10: Load a small CSV that does include headers and manually set the headers. In
 Q11: Create your own small data structure and write it to CSV file. Describe what you expect to see and what actually happens when you look at the output. Include code + comments.
 
 Q12: Create a small dictionary and write it to a CSV file. Include code + comments.
+
+Q13: How would you compare these the CSV and XLSX file formats? When would you want one format versus the other?
