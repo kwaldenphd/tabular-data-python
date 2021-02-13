@@ -505,7 +505,7 @@ Q8: Define escape characters in your own words. Describe a situation in which es
 
 Q9: Load a small CSV file that includes header info. Include code + comments.
 
-Q10: Load a small CSV that does include headers and manually set the headers. Include code + comments.
+Q10: Load a small CSV that does not include headers and manually set the headers. Include code + comments.
 
 Q11: Create your own small data structure and write it to CSV file. Describe what you expect to see and what actually happens when you look at the output. Include code + comments.
 
