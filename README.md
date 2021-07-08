@@ -18,7 +18,9 @@ By the end of this lab, students will be able to:
 
 ## Acknowledgements
 
-Peer review and editing was provided by Spring 2021 graduate teaching assistant [Aidan Draper](https://github.com/adraper2).
+Peer review and editing on the CSV and XLSX portions of this lab was provided by Spring 2021 graduate teaching assistant [Aidan Draper](https://github.com/adraper2).
+
+Peer review and editing on the JSON and XML portions of this lab was provided by Spring 2021 graduate teaching assistant [Subhadyuti Sahoo](https://github.com/SDSAHOO703).
 
 Information and exercises in this lab are adapted from Al Sweigart's [*Automate the Boring Stuff With Python*](https://nostarch.com/automatestuff2) (No Starch Press, 2020).
 - Chapter 13, "Working With Excel Spreadsheets" (302-328)
